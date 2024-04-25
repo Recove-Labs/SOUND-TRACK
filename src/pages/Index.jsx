@@ -44,13 +44,14 @@ const HeroTitle = styled.div`
     -webkit-background-clip: text;
 `;
 
-const Post = styled.div`
+const Post = styled.a`
     border-radius: 8px;
     padding: 2rem 2.5rem;
     background-color: rgba(255, 255, 255, .08);
     border: 1px solid rgba(255, 255, 255, .12);
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    color: #fff;
 `;
 
 const BoxGray = styled.div`
@@ -93,17 +94,19 @@ const Index = () => {
                 </div>
 
                 <div className="grid mb-8">
-                    <Post className="col">
-                        <h1 className="m-0 flex justify-content-between align-items-center">Build <FontAwesomeIcon className="text-3xl" icon="fa-solid fa-circle-right" /></h1>
-                        <p className="text-bold text-xl mb-2 text-color-secondary">Scale on the most widely used Ethereum scaling ecosystem for faster and more powerful dApps.</p>
+                    <Post className="block col">
+                        <h1 className="m-0 flex justify-content-between align-items-center">Why use music to express <FontAwesomeIcon className="text-3xl" icon="fa-solid fa-circle-right" /></h1>
+                        <p className="text-bold text-xl mb-2 text-color-secondary">Everything has a sound except the passage of time, so why not represent the passage of time as a sound as well?</p>
+                    </Post>  
+
+                    <Post className="block col">
+                        <h1 className="m-0 flex justify-content-between align-items-center">Creating a Blue Planet <FontAwesomeIcon className="text-3xl" icon="fa-solid fa-circle-right" /></h1>
+                        <p className="text-bold text-xl mb-2 text-color-secondary">Why do people only care about using resources, but not about their carbon footprint? We wanted to solve this.</p>
                     </Post>
-                    <Post className="col">
-                        <h1 className="m-0 flex justify-content-between align-items-center">Stake <FontAwesomeIcon className="text-3xl" icon="fa-solid fa-circle-right" /></h1>
-                        <p className="text-bold text-xl mb-2 text-color-secondary">Scale on the most widely used Ethereum scaling ecosystem for faster and more powerful dApps.</p>
-                    </Post>
-                    <Post className="col">
-                        <h1 className="m-0 flex justify-content-between align-items-center">Use Polygon <FontAwesomeIcon className="text-3xl" icon="fa-solid fa-circle-right" /></h1>
-                        <p className="text-bold text-xl mb-2 text-color-secondary">Scale on the most widely used Ethereum scaling ecosystem for faster and more powerful dApps.</p>
+
+                    <Post className="block col">
+                        <h1 className="m-0 flex justify-content-between align-items-center">About our project <FontAwesomeIcon className="text-3xl" icon="fa-solid fa-circle-right" /></h1>
+                        <p className="text-bold text-xl mb-2 text-color-secondary">Our project is to help people care more about the environment and reduce carbon emissions through profit.</p>
                     </Post>
                 </div>
             </Container>

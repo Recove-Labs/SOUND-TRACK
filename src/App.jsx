@@ -6,6 +6,7 @@ import GlobalStyles from './GlobalStyles';
 
 // pages
 import Index from './pages/Index';
+import About from './pages/About';
 
 const App = () => {
 
@@ -18,7 +19,7 @@ const App = () => {
       <GlobalStyles />
       <Routes>
         <Route path="/" element={<Index />} />
-        
+        <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
   );

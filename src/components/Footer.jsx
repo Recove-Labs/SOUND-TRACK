@@ -29,13 +29,14 @@ const Footer = () => {
                         <div className="col-6 flex flex flex-column gap-3">
                             <Link to="/">Home</Link>
                             <Link to="/about">About</Link>
-                            <Link to="/ecosystem">Ecosystem</Link>
-                            <Link to="/resources">Resources</Link>
+                            <Link to="/about">Carbon neutral</Link>
                             <Link to="/contact-us">Contact Us</Link>
                         </div>
                         <div className="col-6 flex flex flex-column gap-3">
                             <a href="/" className="flex gap-2">X <FontAwesomeIcon icon="fa-solid fa-up-right-from-square" className="text-sm" /></a>
+                            <a href="/" className="flex gap-2">Discord <FontAwesomeIcon icon="fa-solid fa-up-right-from-square" className="text-sm" /></a>
                             <a href="/" className="flex gap-2">Collections <FontAwesomeIcon icon="fa-solid fa-up-right-from-square" className="text-sm" /></a>
+                            <a href="/" className="flex gap-2">Resources <FontAwesomeIcon icon="fa-solid fa-up-right-from-square" className="text-sm" /></a>
                         </div>
                     </div>
                 </div>

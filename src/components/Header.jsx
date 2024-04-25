@@ -29,7 +29,6 @@ const Header = () => {
                 <div className="flex gap-6 align-items-center">
                     <Link to="/" className="text-color text-xl">Home</Link>
                     <Link to="/about" className="text-color text-xl">About</Link>
-                    <Link to="/ecosystem" className="text-color text-xl">Ecosystem</Link>
                     <Link to="/collections" className="cta text-xl">Collections</Link>
                 </div>
             </Container>
