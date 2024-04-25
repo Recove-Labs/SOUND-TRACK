@@ -21,6 +21,20 @@ const Join = styled.div`
     }
 `;
 
+const LinkButton = styled.div`
+    color: ${props => props.color ? props.color : "#ec4899"};
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+
+    span{
+       margin-top: 0.2rem;
+    }
+`;
+
 const HeroTitle = styled.div`
     font-size: 5.5rem;
     font-weight: 900;
@@ -39,6 +53,11 @@ const Post = styled.div`
     margin-right: 0.5rem;
 `;
 
+const BoxGray = styled.div`
+    background-color: #18181b;
+    padding: 7rem 0;
+`;
+
 const Index = () => {
     return(
         <>
@@ -53,6 +72,20 @@ const Index = () => {
                     <Join>View collections</Join>
                 </div>
             </Container>
+
+            <BoxGray>
+                <Container className="py-8 text-center">
+                    <h1 className="m-0 text-7xl">Creating a Blue Planet</h1>
+                    <p className="text-2xl w-8 mx-auto">We are a project to record the past, to create the future. In order for our project to be organic, we need to create a sustainable planet, and for this we plant one tree for every music sold from us.</p>
+                    <Link>
+                        <LinkButton color="#10b981">
+                            <span>Read More</span>
+                            <FontAwesomeIcon className="text-lg" icon="fa-solid fa-arrow-right" />
+                        </LinkButton>
+                    </Link>
+                </Container>
+            </BoxGray>
+
             <Container className="py-8">
                 <div className="flex align-items-center justify-content-between mb-3">
                     <h1 className="text-5xl">Resources</h1>
