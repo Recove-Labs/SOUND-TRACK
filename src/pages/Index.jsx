@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Container from "../components/Container";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Newsletter from "../components/Newsletter";
 
 const Join = styled.div`
     display: inline-block;
@@ -72,7 +73,9 @@ const Index = () => {
                         <p className="text-bold text-xl mb-2 text-color-secondary">Scale on the most widely used Ethereum scaling ecosystem for faster and more powerful dApps.</p>
                     </Post>
                 </div>
-
+            </Container>
+            <Container className="pb-8">
+                <Newsletter />
             </Container>
             <Footer />
         </>
