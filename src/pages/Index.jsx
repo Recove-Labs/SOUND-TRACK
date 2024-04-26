@@ -65,12 +65,10 @@ const Index = () => {
             <Header />
             <Container style={{height: "80vh"}} className="text-bold flex justify-content-center align-items-center">
                 <div className="text-center">
-                    <Link to="/">
-                    </Link>
                     <HeroTitle>We represent</HeroTitle>
                     <HeroTitle>the present with music.</HeroTitle>
                     <h1 className="mt-2 mb-8">Monopolize one music release per month.</h1>
-                    <Join>View collections</Join>
+                    <a href="/"><Join>View collections</Join></a>
                 </div>
             </Container>
 
@@ -78,7 +76,7 @@ const Index = () => {
                 <Container className="py-8 text-center">
                     <h1 className="m-0 text-7xl">Creating a Blue Planet</h1>
                     <p className="text-2xl w-8 mx-auto">We are a project to record the past, to create the future. In order for our project to be organic, we need to create a sustainable planet, and for this we plant one tree for every music sold from us.</p>
-                    <Link>
+                    <Link to="/carbon-neutral">
                         <LinkButton color="#10b981">
                             <span>Read More</span>
                             <FontAwesomeIcon className="text-lg" icon="fa-solid fa-arrow-right" />
